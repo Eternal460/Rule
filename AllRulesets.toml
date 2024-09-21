@@ -49,3 +49,8 @@ ruleset = "[]GEOIP,CN,no-resolve"
 [[rulesets]]
 group = "🐟 漏网之鱼"
 ruleset = "[]FINAL"
+
+enable_rule_generator=true
+overwrite_original_rules=true
+
+clash_rule_base=https://raw.githubusercontent.com/Eternal460/ClashConfig/main/base.yml
