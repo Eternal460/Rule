@@ -1,0 +1,51 @@
+[[rulesets]]
+group = "Ⓜ️ Onedrive"
+type = "clash-classic"
+ruleset = "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Onedrive.yaml"
+
+[[rulesets]]
+group = "🍎 Apple"
+type = "clash-classic"
+ruleset = "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Apple.yaml"
+
+[[rulesets]]
+group = "🛰️ 节点选择"
+type = "clash-classic"
+ruleset = "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/GoogleCN.yaml"
+
+[[rulesets]]
+group = "🛰️ 节点选择"
+type = "clash-classic"
+ruleset = "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/GlobalMax.yaml"
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/LocalAreaNetwork.list"
+
+[[rulesets]]
+group = "🎯 全球直连"
+type = "clash-classic"
+ruleset = "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/China.yaml"
+
+[[rulesets]]
+group = "🛑 全球拦截"
+type = "clash-domain"
+ruleset = "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/AdBlock.yaml"
+
+[[rulesets]]
+group = "🛑 全球拦截"
+type = "clash-domain"
+ruleset = "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/REJECT.yaml"
+
+[[rulesets]]
+group = "🎯 全球直连"
+type = "clash-classic"
+ruleset = "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/ChinaIPMax.yaml"
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,CN,no-resolve"
+
+[[rulesets]]
+group = "🐟 漏网之鱼"
+ruleset = "[]FINAL"
