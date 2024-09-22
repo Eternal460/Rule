@@ -60,7 +60,7 @@ sniffer:
 
 # tun 模式
 tun:
-  enable: true  # enable 'true'
+  enable: false  # enable 'true'
   stack: system  # or 'gvisor'
   dns-hijack:
     - "any:53"
