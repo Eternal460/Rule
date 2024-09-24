@@ -20,7 +20,8 @@ ruleset = "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Cla
 
 [[rulesets]]
 group = "🎯 全球直连"
-ruleset = "rules/LocalAreaNetwork.list"
+type = "clash-classic"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/LocalAreaNetwork.yaml"
 
 [[rulesets]]
 group = "🎯 全球直连"
