@@ -49,15 +49,15 @@ ruleset = "[]GEOIP,CN,no-resolve"
 
 [[rulesets]]
 group = "🇭🇰 香港"
-ruleset = "(港|HK|hk|Hong Kong|HongKong|hongkong|HKG)"
+ruleset = ["(港|HK|hk|Hong Kong|HongKong|hongkong|HKG)"]
 
 [[rulesets]]
 group = "🇯🇵 日本"
-ruleset = "(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)"
+ruleset = ["(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)"]
 
 [[rulesets]]
 group = "🇺🇲 美国"
-ruleset = '(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|ATL|BUF|DFW|EWR|IAD|LAX|MCI|MIA|ORD|PHX|PDX|SEA|SJC)'
+ruleset = ["(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|ATL|BUF|DFW|EWR|IAD|LAX|MCI|MIA|ORD|PHX|PDX|SEA|SJC)"]
 
 [[rulesets]]
 group = "🐟 漏网之鱼"
