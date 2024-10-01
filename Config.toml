@@ -4,8 +4,8 @@ version = 1
 enable_rule_generator = true
 overwrite_original_rules = true
 
-[advanced]
-skip-cert-verify = false
+[node_pref]
+skip_cert_verify_flag = false
 
 [emojis]
 add_emoji = false
