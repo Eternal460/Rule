@@ -3,6 +3,7 @@ version = 1
 [custom]
 enable_rule_generator = true
 overwrite_original_rules = true
+skip-cert-verify = true
 
 clash_rule_base = "https://raw.githubusercontent.com/Eternal460/Rule/main/base.yml"
 
