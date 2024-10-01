@@ -10,14 +10,14 @@ clash_rule_base = "https://raw.githubusercontent.com/Eternal460/Rule/main/base.y
 skip_cert_verify_flag = false
 
 [emojis]
-add_emoji = false
+add_emoji = true
 remove_old_emoji = true
 
 [[emojis.emoji]]
-import = "https://raw.githubusercontent.com/Eternal460/Rule/refs/heads/main/emoji.tomlv"
+import = "https://raw.githubusercontent.com/Eternal460/Rule/main/emoji.toml"
 
 [[custom_groups]]
-import = "https://raw.githubusercontent.com/Eternal460/Rule/refs/heads/main/groups.toml"
+import = "https://raw.githubusercontent.com/Eternal460/Rule/main/groups.toml"
 
 [[rulesets]]
-import = "https://raw.githubusercontent.com/Eternal460/Rule/refs/heads/main/AllRulesets.toml"
+import = "https://raw.githubusercontent.com/Eternal460/Rule/main/AllRulesets.toml"
