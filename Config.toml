@@ -5,6 +5,13 @@ enable_rule_generator = true
 overwrite_original_rules = true
 skip-cert-verify = false
 
+[emojis]
+add_emoji = false
+remove_old_emoji = true
+
+[[emojis.emoji]]
+import = "https://raw.githubusercontent.com/Eternal460/Rule/refs/heads/main/emoji.tomlv"
+
 clash_rule_base = "https://raw.githubusercontent.com/Eternal460/Rule/main/base.yml"
 
 [[custom_groups]]
